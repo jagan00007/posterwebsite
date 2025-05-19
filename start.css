@@ -1,0 +1,115 @@
+
+body {
+   background-color: whitesmoke;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 15px; 
+   
+    
+}
+li,ul,h1{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: violet;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.search{
+    text-align: center;
+    padding: 15px;
+
+ }
+ #searchInput{
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+
+ }
+img{
+    height: 200px;
+    width: 200px;
+    display: inline;
+    border-radius: 20%;
+
+    
+}
+.pic{
+   
+    padding: 15px;
+    display: flex;
+    justify-content: center; /* Centers the items horizontally; adjust as needed */
+    align-items: center; 
+    padding: 20px;  
+}
+.img1,.img2,.img3{
+    text-align: center;
+    background-color : brown;;
+    border: 3px solid black;
+    height: 250px;
+    width: 250px;
+    margin-right: 30px;
+    border-radius: 20%;
+   
+}
+.img1,.img2,.img3>p{
+    color: whitesmoke;
+
+
+
+}
+
+
+
+.pic>nav:hover{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.about{
+   text-align: center;
+    padding: 25px;
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#poster:hover{
+color: brown;
+}
+.colorchange{
+    background-color: black;
+    color: white;
+    font-size: 40PX;
+    text-align: center;
+    padding: 20px;
+
+}
+.colorchange>P{
+    display: inline;
+}
+
+.colorchange>P:hover{
+    color: brown
+}
